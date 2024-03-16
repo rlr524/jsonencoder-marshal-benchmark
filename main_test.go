@@ -21,6 +21,3 @@ func BenchmarkMarshal(b *testing.B) {
 		healthcheckHandlerMarshal(w, r)
 	}
 }
-
-// To run benchmark tests
-// go test -run=^$ -bench=. -benchmem -count=3 -benchtime=5s
